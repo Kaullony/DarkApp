@@ -1,0 +1,180 @@
+/* **********  FONT GOOGLE  ************ */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+/* **********  RESET PAGE  ************ */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: var(--secondary-color);
+}
+/* **********  ROOR  ************ */
+:root{
+    --principal-color: #eb5e28;
+    --principal-bck-color: #252422;
+    
+    --secondary-color: #ccc5b9;
+    --secondary-bck-color: #403d39;
+}
+/* **********  BODY  ************ */
+body{
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images.hdqwalls.com/download/abstract-retro-art-8k-hz-2048x1152.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+/* **********  BOX-CENTER  ************ */
+.box-center{
+
+    width: 700px;
+    max-width: 700px;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/* **********  BOX-IMAGE  ************ 
+.box-image{
+
+    width: 50%;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: var(--secondary-bck-color);
+    background-image: url(https://images.hdqwalls.com/download/abstract-retro-art-8k-hz-2048x1152.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box-image div{
+
+    width: 100%;
+    height: 100%;
+    background-color: #25242299;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box-image div h1{
+
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: var(--principal-color);
+}
+
+.box-image div p{
+
+    width: 68%;
+    line-height: 32px;
+    font-size: 1.5rem;
+    margin-top: 40px;
+    color: var(--secondary-color);
+}
+/* **********  BOX-FORM  ************ */
+.box-form{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--principal-bck-color);
+    border-radius: 10px;
+    border: 2px solid var(--secondary-bck-color);
+}
+
+.box-form h1,
+.box-form form,
+.box-form ul,
+.box-form h3,
+.btn-large{
+
+    width: 80%;
+    margin-inline: auto;
+}
+
+.box-form h1{
+
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: #15151530 0px 0px 20px;
+    margin-bottom: 80px;
+}
+
+.box-form form {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.box-form form input{
+
+    height: 50px;
+    padding: 0px 20px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    font-size: 1.2em;
+    color: #000;
+}
+
+.box-form ul{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.box-form ul li{
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-large{
+    background-color: var(--principal-color);
+    margin-top: 70px;
+    height: 70px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-large:hover{
+    transition: .3s;
+    opacity: .8;
+}
+
+.box-form h3{
+
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box-form h3 a{
+
+    color: var(--principal-color);
+}
